@@ -1,12 +1,12 @@
 body {
-  background: lightblue;
+  background: #f0f8f0;
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 20px;
 }
 
 h1 {
-  color: darkblue;
+  color: darkgreen;
 }
 
 .sotto {
@@ -20,10 +20,11 @@ h1 {
   padding: 20px;
   border-radius: 12px;
   text-align: left;
+  border-top: 5px solid gold;
 }
 
 h2 {
-  color: teal;
+  color: gold;
 }
 
 .piede {
