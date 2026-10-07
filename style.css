@@ -31,19 +31,21 @@ h2 {
   color: gray;
 }
 .scheda {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+ box-shadow: 0 4px 12px rgba(15, 23, 42, 0.12);
 }
 
 .bottone {
   display: inline-block;
-  background: darkblue;
-  color: white;
+  background: #6366f1;
+ color: #ffffff;
   padding: 8px 14px;
   border-radius: 8px;
   text-decoration: none;
   margin: 4px;
+transition: background-color 0.2s ease, transform 0.1s ease;
 }
 
 .bottone:hover {
-  background: orange;
+  background: #0d9488;
+  transform: translateY(-1px);
 }
